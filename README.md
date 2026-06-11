@@ -5,36 +5,36 @@ A full-featured emergency response mobile application built with Flutter, inspir
 1. Splash Screen
 Animated logo reveal with fade + slide transition
 Auto-navigates to onboarding after 3 seconds
-2. Onboarding (3 pages)
+3. Onboarding (3 pages)
 SOS Alert introduction
 Real-Time Tracking overview
 Coordinated Response explanation
 Skip functionality
-3. Dashboard (Home)
+4. Dashboard (Home)
 Greeting header with commander name
 Stats Grid: Active Incidents, Responding, Teams Available, Resolved
 Quick Actions: Report Incident, Live Map, Emergency Call, History
 Recent Incidents list
-4. Incidents Tab
+5. Incidents Tab
 Filterable list (All / Active / Responding / Pending / Resolved)
 Rich incident cards with type emoji, location, time ago, responder count
 Status badges with color coding
-5. Incident Detail Screen
+6. Incident Detail Screen
 Full-screen gradient header (color-coded by incident type)
 Location, reporter, responder info tiles
 Incident description
 Response Timeline
 Action buttons: Dispatch Units / Mark Resolved
-6. SOS Emergency Screen
+7. SOS Emergency Screen
 Dark atmospheric UI
 Animated pulsing SOS button with ripple effects
 5-second countdown with cancel option
 Quick emergency contacts (Fire / Medical / Police)
-7. Teams Tab
+8. Teams Tab
 Available/Busy status indicators
 Distance and rating display
 Bottom sheet with Call & Dispatch actions
-8. Alerts Tab
+9. Alerts Tab
 Severity badges (CRITICAL / HIGH / MEDIUM / LOW)
 Unread indicators
 Mark all read action
@@ -60,6 +60,7 @@ flutter build apk --release
 Build iOS
 flutter build ios --release
 📁 Project Structure
+
 lib/
 ├── main.dart                    # App entry point
 ├── theme/
@@ -74,6 +75,7 @@ lib/
     ├── incident_detail_screen.dart
     └── sos_screen.dart          # SOS Emergency Screen
 📦 Dependencies
+
 Package	Purpose
 google_fonts	Poppins typography
 flutter_svg	SVG asset support
