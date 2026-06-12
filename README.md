@@ -61,7 +61,7 @@ Build iOS
 flutter build ios --release
 📁 Project Structure
 
-lib/-
+lib/
 ├── main.dart                    # App entry point
 ├── theme/
 │   └── app_theme.dart           # Colors, typography, theme
